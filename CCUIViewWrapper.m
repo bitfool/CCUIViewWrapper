@@ -11,6 +11,8 @@
  * You will find a copy of this license within the cocos2d for iPhone
  * distribution inside the "LICENSE" file.
  *
+ * version 1.0.1 by bitfool
+ *
  */
 
 #import "CCUIViewWrapper.h"
