@@ -10,6 +10,8 @@
  * You will find a copy of this license within the cocos2d for iPhone
  * distribution inside the "LICENSE" file.
  *
+ * version 1.0.1 by bitfool (no change in headers from v1.0.1 from splhack)
+ *
  */
 
 #import "cocos2d.h"
