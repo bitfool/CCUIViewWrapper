@@ -6,6 +6,8 @@ CCUIViewWrapper - wrapper for manipulating UIViews using Cocos2D
 http://www.cocos2d-iphone.org/forum/topic/6889
 //end original readme
 
-bitfool modified this to be ARC-compliant (iOS 4+)
+bitfool modified this to be ARC-compliant for the Kobold2D framework for Cocos2D (iOS 4+)
 which required just two changes in the CCUIViewWrapper .m file
+
+version 1.0.1 by bitfool
 
