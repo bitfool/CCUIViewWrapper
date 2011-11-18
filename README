@@ -4,4 +4,8 @@ It's just copy of the following thread of cocos2d forum.
 
 CCUIViewWrapper - wrapper for manipulating UIViews using Cocos2D
 http://www.cocos2d-iphone.org/forum/topic/6889
+//end original readme
+
+bitfool modified this to be ARC-compliant (iOS 4+)
+which required just two changes in the CCUIViewWrapper .m file
 
