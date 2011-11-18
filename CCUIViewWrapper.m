@@ -22,7 +22,12 @@
 /* -------------------------------------------------------------------------- */
 + (id)wrapperForUIView:(UIView*)ui
 {
+//modified by bitfool to make it ARC-compliant
+#ifdef KK_ARC_ENABLED
+	return [[self alloc] initForUIView:ui];
+#else
 	return [[[self alloc] initForUIView:ui] autorelease];
+#endif // KK_ARC_ENABLED
 }
 
 /* -------------------------------------------------------------------------- */
@@ -40,7 +45,10 @@
 - (void)dealloc
 {
 	self.uiItem = nil;
+//modified by bitfool to make it ARC-compliant
+#ifndef KK_ARC_ENABLED
 	[super dealloc];
+#endif // KK_ARC_ENABLED
 }
 
 /* -------------------------------------------------------------------------- */
